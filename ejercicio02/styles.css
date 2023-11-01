@@ -1,4 +1,9 @@
 .calculator {
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.barra {
     max-width: 400px;
     margin: 0 auto;
     text-align: center;

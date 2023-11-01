@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Color Aleatorio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- <div class="boton-volver">
+            <button onclick="window.location.href='../index.html'"><img src="../botones/btn_return.png" alt="Botón 1"></button>
+        </div> -->
+        <button class="boton" onclick="window.location.href='../index.html'">
+            <img src="../botones/btn_return.png" alt="Botón 1">
+        </button>
+        <h2>Ejercicio 1</h2> <!-- Barra de título -->
+    </header>
+
+    <div class="elemento">Elemento para Cambiar de Color</div>
+    <button onclick="cambiarColor()">Cambiar Color</button>
+
+    <script>
+        function cambiarColor() {
+            var elemento = document.querySelector('.elemento');
+            var letras = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letras[Math.floor(Math.random() * 16)];
+            }
+            elemento.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

@@ -50,42 +50,79 @@ body {
     transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima del botón */
 }
 
-.outer-container {
+
+
+
+
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items:baseline;
-    height: 100vh;
+    justify-content: space-around;
     margin: 0;
 }
 
-.container {
-    text-align: center;
-    width: 300px;
+nav ul li {
+    position: relative;
 }
 
-table {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-.deleteBtn {
-    background-color: #ff5252;
+nav ul li a {
+    text-decoration: none;
     color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+    padding: 15px 20px;
+    display: block;
 }
 
-.deleteBtn:hover {
-    background-color: #ff1a1a;
+.submenuServicio {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+}
+
+.submenuServicio ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.submenuServicio ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li:hover .submenuServicio {
+    display: block;
+}
+
+.submenuProducto {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+}
+
+.submenuProducto ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.submenuProducto ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li:hover .submenuProducto {
+    display: block;
 }

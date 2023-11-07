@@ -50,8 +50,55 @@ body {
     transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima del botón */
 }
 
-#countdown {
-    font-size: 36px;
+
+
+
+
+
+#quiz-container {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     text-align: center;
-    margin-top: 50px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+#next-button {
+    margin-top: 20px;
+    background-color: #007bff;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+#score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
 }

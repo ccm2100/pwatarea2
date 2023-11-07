@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <button class="boton" onclick="window.location.href='../index.html'">
+            <img src="../botones/btn_return.png" alt="Botón 1">
+        </button>
+        <h2>Ejercicio 6</h2> <!-- Barra de título -->
+    </header>
+
+    <div class="container">
+        <h2>Lista de Tareas</h2>
+        <input type="text" id="task" placeholder="Nueva tarea">
+        <button onclick="addTask()">Agregar tarea</button>
+        <table id="taskTable">
+            <tr>
+                <th>Tarea</th>
+                <th>Eliminar</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

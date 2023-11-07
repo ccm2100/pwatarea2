@@ -1,0 +1,92 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #333; /* Fondo negro para el encabezado */
+    color: #fff; /* Texto en color blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.boton-volver {
+    margin-right:auto; /* Empuja el botón hacia la izquierda */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* estilos para los botones*/
+.boton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton img {
+    width: 50px; /* Ajusta el ancho de las imágenes según tu preferencia */
+    height: 50px; /* Ajusta la altura de las imágenes según tu preferencia */
+}
+
+.boton:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima del botón */
+}
+
+
+
+.container {
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100vh;
+    margin: 0;
+
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.deleteBtn {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: #ff1a1a;
+}

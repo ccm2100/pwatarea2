@@ -1,0 +1,100 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #333; /* Fondo negro para el encabezado */
+    color: #fff; /* Texto en color blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btnEnviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnEnviar:hover {
+    background-color: #45a049;
+}
+
+
+.boton-volver {
+    margin-right:auto; /* Empuja el botón hacia la izquierda */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* estilos para los botones*/
+.boton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton img {
+    width: 50px; /* Ajusta el ancho de las imágenes según tu preferencia */
+    height: 50px; /* Ajusta la altura de las imágenes según tu preferencia */
+}
+
+.boton:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima del botón */
+}
